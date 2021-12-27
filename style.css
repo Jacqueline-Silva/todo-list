@@ -1,7 +1,34 @@
- .selected {
-     background-color: rgb(128, 128, 128);
- }
 
- .completed {
-     text-decoration: line-through;
- }
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+p {
+  font-size: 20px;
+  font-style: italic;
+  color: rgb(85, 85, 85);
+}
+
+.selected {
+  background-color: rgb(128, 128, 128);
+}
+
+.completed {
+  text-decoration: line-through;
+}
+
+button {
+  margin: 1px;
+  padding: 8px;
+  border-radius: 10px;
+}
+input {
+  padding: 8px;
+  border-radius: 10px;
+  width: 450px;
+}
